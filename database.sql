@@ -1,0 +1,13 @@
+CREATE DATABASE myDB;
+
+USE myDB;
+
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    age INT NOT NULL,
+    weight INT NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    report BLOB NOT NULL
+);
